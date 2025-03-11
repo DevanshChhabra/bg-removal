@@ -4,7 +4,7 @@ import { assets } from '../assets/assets'
 const Steps = () => {
   return (
     <div className='mx-4 lg:mx-44 py-20 xl:py-40'>
-       <h1 className='text-center text-2xl md:text-3xl lg:text-4xl mt-4 py-2 font-semibold bg-gradient-to-r from-gray-900 to-gray-400 bg-clip-text text-transparent'>Steps to remove background <br /> image in seconds</h1>
+       <h1 className='text-center text-2xl md:text-3xl lg:text-4xl mt-4 py-2 font-semibold gradient-heading'>Steps to remove background <br /> image in seconds</h1>
        <div className='flex items-stretch flex-wrap md:flex-nowrap gap-6 mt-16 xl:mt-24 justify-center  '>
 
             <div className='flex items-start gap-4 bg-white drop-shadow-md p-7 pb-10 rounded hover:scale-105 transition-all duration-500'>

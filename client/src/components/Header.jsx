@@ -10,14 +10,14 @@ const Header = () => {
       {/* ------- Left Side --------- */}
       <div className='w-full lg:w-1/2 text-left'>
         <h1 className='text-4xl xl:text-5xl 2xl:text-6xl font-bold text-neutral-700 leading-tight'>
-          Remove the <br className='max-sm:hidden' /> <span className='bg-gradient-to-r from-violet-600 to-fuchsia-500 bg-clip-text text-transparent'> background </span> from <br className='max-md:hidden' /> images for free.
+          Remove the <br className='max-sm:hidden' /> <span className='gradient-text'> background </span> from <br className='max-md:hidden' /> images for free.
         </h1>
         <p className='my-6 text-[16px] text-gray-500'>Have a challenging photo background to remove for a clean, distraction-free picture? Our free background remover app enables you to isolate and highlight the subject on a clear background with ease. That way, you can insert the image into any new design and make it look natural!
 
 </p>
         <div>
           <input onChange={e => removeBg(e.target.files[0])} type="file" accept='image/*' id="upload1" hidden/>
-          <label className='inline-flex gap-3 px-3 py-3.5 rounded-full cursor-pointer bg-gradient-to-r from-violet-600 to-fuchsia-500 m-auto hover:scale-105 transition-all duration-700' htmlFor="upload1">
+          <label className='inline-flex gap-3 px-3 py-3.5 rounded-full cursor-pointer upload-gradient m-auto hover:scale-105 transition-all duration-700' htmlFor="upload1">
             <img width={20} src={assets.upload_btn_icon} alt="" />
             <p className='text-white text-sm'>Upload your image</p>
           </label>

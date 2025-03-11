@@ -23,3 +23,21 @@
 .bg-layer{
     background-image: url(/bg_layer.png);
 }
+
+.gradient-text {
+    background: linear-gradient(to right, #8123fe, #dc2bfb); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block; /* Ensures it applies correctly */
+}
+  
+.gradient-heading {
+    background: linear-gradient(to right, #080808, #959ca8);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+.upload-gradient {
+    background: linear-gradient(to right,#8123fe, #dc2bfb);
+  }
